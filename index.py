@@ -1,5 +1,6 @@
-precoProduto1 = float(input("Digite o preço do produto 1: "))
-precoProduto2 = float(input("Digite o preço do produto 2: "))
+valor1 = float(input("Digite o primeiro valor: "))
+valor2 = float(input("Digite o segundo valor: "))
+valor3 = float(input("Digite o terceiro valor: "))
 
-precoTotal = precoProduto1 + precoProduto2
-print("O preço total é:", precoTotal)
+media = (valor1 + valor2 + valor3) / 3
+print("Média dos valores:", media)

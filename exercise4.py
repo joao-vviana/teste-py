@@ -1,0 +1,11 @@
+rua = input("Digite o nome da sua rua: ")
+cep = int(input("Digite o seu CEP: "))
+bairro = input("Digite o seu bairro: ")
+cidade = input("Digite a sua cidade: ")
+estado = input("Digite o seu estado: ")
+
+print(rua)
+print(cep)
+print(bairro)
+print(cidade)
+print(estado)
